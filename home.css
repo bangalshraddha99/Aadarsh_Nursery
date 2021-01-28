@@ -1,0 +1,80 @@
+body
+{
+    background-image: url("homebg.jpg");
+    background-position: center;
+   background-size: cover; 
+   background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+}
+#p1
+{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(22, 104, 21);
+    margin-left: 23%;
+    margin-top: 5%;
+    margin-right: 20%;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: whitesmoke;
+}
+#p2
+{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(5, 34, 5);
+    margin-left: 23%;
+    margin-top: 5%;
+    margin-right: 20%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: whitesmoke;
+}
+#p4
+{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 98, 16);
+    margin-left: 23%;
+    margin-top: 5%;
+    margin-right: 20%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: whitesmoke;
+}
+.container ul
+{
+    float: right;
+    list-style-type: none;
+    margin-right: 210px;
+    margin-top: 5%;
+    background-color: black;
+    padding:2%;
+}
+.container ul li
+{
+    display: inline-block;
+}
+.container ul li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border: 1px solid whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    transition: 0.6s ease;
+}
+.container ul li a:hover
+{
+    background-color: whitesmoke;
+    color: black;
+}
+.container
+{
+    margin: auto;
+}
